@@ -1,0 +1,64 @@
+/* 
+  Localization.strings
+  Lemonaid
+
+  Created by 박진수 on 2018. 10. 30..
+  Copyright © 2018년 박진수. All rights reserved.
+*/
+
+"remoteService" = "remoteService";
+"remoteGuideContent" = "remoteGuideContent";
+"impotence" = "impotence";
+"impotenceIntroduce" = "impotenceIntroduce";
+"hairLoss" = "hairLoss";
+"hairLossIntroduce" = "hairLossIntroduce";
+"check" = "check";
+"exam" = " exam";
+"noBasisDefine" = "noBasisDefine";
+"basisDfine" = "basisDfine";
+"login" = "login";
+"logout" = "logout";
+"mikeGuide" = "mikeGuide";
+"mikeAccess" = "mikeAccess";
+"mikeStart" = "mikeStart";
+"mikeTest" = "mikeTest";
+"mikeFail" = "mikeFail";
+"prescIssue" = "prescIssue";
+"videoCall" = "videoCall";
+"prescSuccess" = "prescSucess";
+"prescFail" = "prescFail";
+"pick up" = "pick up";
+"prescComplete" = "prescComplete";
+"ok" = "ok";
+"signIn" = "signIn";
+"order" = "order";
+"pay" = "pay";
+"me" = "me";
+"error" = "error";
+"refund" = "refund";
+"onMain" = "onMain";
+"selectPharmacy" = "selectPharmacy";
+"networkError" = "networkError";
+"requestError" = "requestError";
+"refundError" = "refundError";
+"locationAuthor" = "locationAuthor";
+"gpsError" = "gpsError";
+"voiceAuthor" = "voiceAuthor";
+"mikeAuthor" = "mikeAuthor";
+"selectPharmacyError" = "selectPharmacyError";
+"mikeError" = "mikeError";
+"saveError" = "saveError";
+"alert" = "Alert";
+"onMain" = "onMain";
+"backMain" = "< Main";
+"cancel" = "cancel";
+"examExit" = "examExit";
+"signExit" = "signExit";
+"orderExit" = "orderExit";
+"payExit" = "payExit";
+"saveVideo" = "saveVideo";
+"saveWifi" = "saveWifi";
+"setWifi" = "setWifi";
+"setting" = "setting";
+"networkDisconnect" = "networkDisconnect";
+"networkError" = "networkError";

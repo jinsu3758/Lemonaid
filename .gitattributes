@@ -1,0 +1,13 @@
+Lemonaid.xcworkspace filter=lfs diff=lfs merge=lfs -text
+Pods filter=lfs diff=lfs merge=lfs -text
+Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/GoogleMapsCore filter=lfs diff=lfs merge=lfs -text
+Pods/Realm/core/librealmcore-ios.a filter=lfs diff=lfs merge=lfs -text
+Pods/Quickblox-WebRTC/QuickbloxWebRTC.framework/QuickbloxWebRTC filter=lfs diff=lfs merge=lfs -text
+*.framework filter=lfs diff=lfs merge=lfs -text
+*.a filter=lfs diff=lfs merge=lfs -text
+lfs filter=lfs diff=lfs merge=lfs -text
+track filter=lfs diff=lfs merge=lfs -text
+git filter=lfs diff=lfs merge=lfs -text
+Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework filter=lfs diff=lfs merge=lfs -text
+ filter=lfs diff=lfs merge=lfs -text
+Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/GoogleMapsCore.exec filter=lfs diff=lfs merge=lfs -text

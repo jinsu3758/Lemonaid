@@ -1,0 +1,106 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - GoogleMaps (3.0.2):
+    - GoogleMaps/Maps (= 3.0.2)
+  - GoogleMaps/Base (3.0.2)
+  - GoogleMaps/Maps (3.0.2):
+    - GoogleMaps/Base
+  - GooglePlaces (3.0.2):
+    - GoogleMaps/Base (= 3.0.2)
+  - Kingfisher (4.10.1)
+  - ObjectMapper (3.4.2)
+  - QuickBlox (2.17.1)
+  - Quickblox-WebRTC (2.7.3):
+    - QuickBlox (>= 2.7)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+  - RxAlamofire (4.3.0):
+    - RxAlamofire/Core (= 4.3.0)
+  - RxAlamofire/Core (4.3.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxRealm (0.7.6):
+    - RealmSwift (~> 3.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - SwiftyJSON (4.2.0)
+  - UICircularProgressRing (5.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireObjectMapper (~> 5.2)
+  - Crashlytics
+  - Fabric
+  - GoogleMaps
+  - GooglePlaces
+  - Kingfisher (~> 4.0)
+  - ObjectMapper (~> 3.2)
+  - QuickBlox
+  - Quickblox-WebRTC (~> 2.7.3)
+  - RealmSwift
+  - RxAlamofire
+  - RxCocoa (~> 4.0)
+  - RxRealm
+  - RxSwift (~> 4.0)
+  - SwiftyJSON (~> 4.0)
+  - UICircularProgressRing
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Crashlytics
+    - Fabric
+    - GoogleMaps
+    - GooglePlaces
+    - Kingfisher
+    - ObjectMapper
+    - QuickBlox
+    - Quickblox-WebRTC
+    - Realm
+    - RealmSwift
+    - RxAlamofire
+    - RxAtomic
+    - RxCocoa
+    - RxRealm
+    - RxSwift
+    - SwiftyJSON
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  GoogleMaps: 941cd655e009b4d8e42df19a3d749bc3fccec973
+  GooglePlaces: c086e0055dc5f0177d7c9d65fc77a1734f9a4825
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  QuickBlox: b8c327b61db8382880bd41185703acf228105a1c
+  Quickblox-WebRTC: 92897974c3b39fa8f54a373520e2eefc3696f6a4
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  RxAlamofire: 09624d0f2d48ed8b686e4eb4cf68e28cbd2df556
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxRealm: 5379eddd74f8d617ca7681d1f8d144af25b432b0
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  UICircularProgressRing: 988932dfcfef6a19b645e4eb8c37145e678e57f2
+
+PODFILE CHECKSUM: dab50b7fe6aac0e4c97a4bf5185c5537fa8ce5b4
+
+COCOAPODS: 1.5.3

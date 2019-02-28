@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D4110DEF80BAE36EE6ECB8 /* Pods_Lemonaid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A60EC3CF7BB30072A1A7998 /* Pods_Lemonaid.framework */; };
+		1E24C6D92BB9B6B374F05979 /* Pods_LemonaidUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36085DCCC5D28443EC570B46 /* Pods_LemonaidUITests.framework */; };
+		74007578221138FA008FD3D3 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74007577221138FA008FD3D3 /* VideoViewController.swift */; };
+		740F9D2E21AD7552004F05B3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F9D2D21AD7552004F05B3 /* Enums.swift */; };
+		7413C59A219E3C17003DA8C1 /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7413C599219E3C17003DA8C1 /* Guide.storyboard */; };
+		7413C59D219E4625003DA8C1 /* Treat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7413C59C219E4625003DA8C1 /* Treat.storyboard */; };
+		7413C59F219E9E6D003DA8C1 /* ViewBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413C59E219E9E6D003DA8C1 /* ViewBorder.swift */; };
+		7413C5A1219EAA74003DA8C1 /* MikeTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413C5A0219EAA74003DA8C1 /* MikeTestViewController.swift */; };
+		7418646D219BE0D100DB6737 /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418646C219BE0D100DB6737 /* ExamViewController.swift */; };
+		74186471219BF85800DB6737 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74186470219BF85800DB6737 /* LoginViewController.swift */; };
+		74186473219BFD2F00DB6737 /* SingleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74186472219BFD2F00DB6737 /* SingleData.swift */; };
+		74186476219C471900DB6737 /* RealmUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74186475219C471900DB6737 /* RealmUtil.swift */; };
+		74186478219C4C3B00DB6737 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74186477219C4C3B00DB6737 /* User.swift */; };
+		743D80B421896DF400E3E3D0 /* LocalString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743D80B321896DF400E3E3D0 /* LocalString.swift */; };
+		743D80B62189826B00E3E3D0 /* MainGuideContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743D80B52189826B00E3E3D0 /* MainGuideContainer.swift */; };
+		743E1EBB21A7849A00817B7F /* CompletePrescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743E1EBA21A7849A00817B7F /* CompletePrescViewController.swift */; };
+		743E1EBD21A7ECE000817B7F /* ReviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743E1EBC21A7ECE000817B7F /* ReviewList.swift */; };
+		744002BD21A386670057E196 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744002BC21A386670057E196 /* MapViewController.swift */; };
+		7440484821927DF600937B1A /* ApiUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440484721927DF600937B1A /* ApiUtil.swift */; };
+		7440484A21929C0800937B1A /* HeaderAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440484921929C0800937B1A /* HeaderAdapter.swift */; };
+		744753B721A29C27006DBA8E /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744753B621A29C27006DBA8E /* CallViewController.swift */; };
+		744753BA21A29E5D006DBA8E /* Presc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744753B921A29E5D006DBA8E /* Presc.storyboard */; };
+		744753BC21A29F49006DBA8E /* PrescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744753BB21A29F49006DBA8E /* PrescViewController.swift */; };
+		74532676219910B500A82AC0 /* ExceptContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74532675219910B500A82AC0 /* ExceptContainer.swift */; };
+		74532678219910E500A82AC0 /* ExceptPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74532677219910E500A82AC0 /* ExceptPresenter.swift */; };
+		7453267A219910F600A82AC0 /* ExceptDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74532679219910F600A82AC0 /* ExceptDataSource.swift */; };
+		7453267C2199113C00A82AC0 /* ExceptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453267B2199113C00A82AC0 /* ExceptCell.swift */; };
+		7455308B2187F68A00BB297D /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7455308A2187F68A00BB297D /* GuideViewController.swift */; };
+		7455308F21884FC000BB297D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7455308E21884FC000BB297D /* Color.swift */; };
+		74553094218861BB00BB297D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74553096218861BB00BB297D /* Localizable.strings */; };
+		7459D682219A8312000B354E /* TreatContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459D681219A8312000B354E /* TreatContainer.swift */; };
+		7459D684219A8E1A000B354E /* Exam.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7459D683219A8E1A000B354E /* Exam.storyboard */; };
+		7459D687219A9143000B354E /* ExamGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459D686219A9143000B354E /* ExamGuideViewController.swift */; };
+		7467BD50218A858F0092B4FE /* ProcessGuideContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467BD4F218A858F0092B4FE /* ProcessGuideContainer.swift */; };
+		7467BD57218AB61F0092B4FE /* UserDefaultsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467BD56218AB61F0092B4FE /* UserDefaultsUtil.swift */; };
+		746CB142218696990003447B /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CB141218696990003447B /* ReviewCell.swift */; };
+		746CB144218696B20003447B /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CB143218696B20003447B /* Review.swift */; };
+		746CB14621869A8B0003447B /* ReviewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CB14521869A8B0003447B /* ReviewDataSource.swift */; };
+		746CB1482186A38E0003447B /* ReviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CB1472186A38E0003447B /* ReviewPresenter.swift */; };
+		7472E1F6219590200047DE0F /* DefineContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472E1F5219590200047DE0F /* DefineContainer.swift */; };
+		747E08342213E4AB00EE7194 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E08332213E4AB00EE7194 /* CallManager.swift */; };
+		7494CFCA221D0A4700E76DD3 /* CallManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7494CFC9221D0A4700E76DD3 /* CallManagerDelegate.swift */; };
+		74A871B621813CCD00570D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A871B521813CCD00570D53 /* AppDelegate.swift */; };
+		74A871B821813CCD00570D53 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A871B721813CCD00570D53 /* MainViewController.swift */; };
+		74A871BB21813CCD00570D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A871B921813CCD00570D53 /* Main.storyboard */; };
+		74A871BD21813CCE00570D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A871BC21813CCE00570D53 /* Assets.xcassets */; };
+		74A871C021813CCE00570D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A871BE21813CCE00570D53 /* LaunchScreen.storyboard */; };
+		74A871CB21813CCE00570D53 /* LemonaidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A871CA21813CCE00570D53 /* LemonaidTests.swift */; };
+		74A871D621813CCE00570D53 /* LemonaidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A871D521813CCE00570D53 /* LemonaidUITests.swift */; };
+		74A871E4218160D500570D53 /* DiseaseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A871E3218160D500570D53 /* DiseaseDataSource.swift */; };
+		74A871E62181620A00570D53 /* DiseaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A871E52181620A00570D53 /* DiseaseCell.swift */; };
+		74A871E82181773B00570D53 /* Disease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A871E72181773B00570D53 /* Disease.swift */; };
+		74A871EA21818F2B00570D53 /* DiseasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A871E921818F2B00570D53 /* DiseasePresenter.swift */; };
+		74ADD5DB21A626AB0068A630 /* MapContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ADD5DA21A626AB0068A630 /* MapContainer.swift */; };
+		74ADD5E121A642AD0068A630 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ADD5E021A642AD0068A630 /* Address.swift */; };
+		AAE83738AD243245C60CDA29 /* Pods_LemonaidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85A320C31B7B70E5221F7C5 /* Pods_LemonaidTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74A871C721813CCE00570D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74A871AA21813CCD00570D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A871B121813CCD00570D53;
+			remoteInfo = Lemonaid;
+		};
+		74A871D221813CCE00570D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74A871AA21813CCD00570D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A871B121813CCD00570D53;
+			remoteInfo = Lemonaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013DB23FAA5DB98211642B14 /* Pods-LemonaidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonaidUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemonaidUITests/Pods-LemonaidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33204082295CB98A0E3521B2 /* Pods-LemonaidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonaidUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemonaidUITests/Pods-LemonaidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36085DCCC5D28443EC570B46 /* Pods_LemonaidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LemonaidUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A60EC3CF7BB30072A1A7998 /* Pods_Lemonaid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemonaid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0D19E442456F2701F54A79 /* Pods-LemonaidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonaidTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemonaidTests/Pods-LemonaidTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C7342946DD7E9A1145A8479 /* Pods-Lemonaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemonaid.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lemonaid/Pods-Lemonaid.release.xcconfig"; sourceTree = "<group>"; };
+		74007577221138FA008FD3D3 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		7400757922115A01008FD3D3 /* Lemonaid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lemonaid.entitlements; sourceTree = "<group>"; };
+		740F9D2D21AD7552004F05B3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		7413C599219E3C17003DA8C1 /* Guide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Guide.storyboard; sourceTree = "<group>"; };
+		7413C59C219E4625003DA8C1 /* Treat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Treat.storyboard; sourceTree = "<group>"; };
+		7413C59E219E9E6D003DA8C1 /* ViewBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBorder.swift; sourceTree = "<group>"; };
+		7413C5A0219EAA74003DA8C1 /* MikeTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikeTestViewController.swift; sourceTree = "<group>"; };
+		7418646C219BE0D100DB6737 /* ExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
+		74186470219BF85800DB6737 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		74186472219BFD2F00DB6737 /* SingleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleData.swift; sourceTree = "<group>"; };
+		74186475219C471900DB6737 /* RealmUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmUtil.swift; sourceTree = "<group>"; };
+		74186477219C4C3B00DB6737 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		743D80B221896CBB00E3E3D0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		743D80B321896DF400E3E3D0 /* LocalString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalString.swift; sourceTree = "<group>"; };
+		743D80B52189826B00E3E3D0 /* MainGuideContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGuideContainer.swift; sourceTree = "<group>"; };
+		743E1EBA21A7849A00817B7F /* CompletePrescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletePrescViewController.swift; sourceTree = "<group>"; };
+		743E1EBC21A7ECE000817B7F /* ReviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewList.swift; sourceTree = "<group>"; };
+		744002BC21A386670057E196 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7440484721927DF600937B1A /* ApiUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUtil.swift; sourceTree = "<group>"; };
+		7440484921929C0800937B1A /* HeaderAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAdapter.swift; sourceTree = "<group>"; };
+		7440586921C0AF600028019E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		7440586A21C0AF600028019E /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		7440586D21C0C7DF0028019E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7440586F21C0C7FB0028019E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7440587021C0C7FB0028019E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7440587321C0C8100028019E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		744753B621A29C27006DBA8E /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		744753B921A29E5D006DBA8E /* Presc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Presc.storyboard; sourceTree = "<group>"; };
+		744753BB21A29F49006DBA8E /* PrescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescViewController.swift; sourceTree = "<group>"; };
+		74532675219910B500A82AC0 /* ExceptContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptContainer.swift; sourceTree = "<group>"; };
+		74532677219910E500A82AC0 /* ExceptPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptPresenter.swift; sourceTree = "<group>"; };
+		74532679219910F600A82AC0 /* ExceptDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptDataSource.swift; sourceTree = "<group>"; };
+		7453267B2199113C00A82AC0 /* ExceptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptCell.swift; sourceTree = "<group>"; };
+		7455308A2187F68A00BB297D /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		7455308E21884FC000BB297D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		74553095218861BB00BB297D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7459D681219A8312000B354E /* TreatContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatContainer.swift; sourceTree = "<group>"; };
+		7459D683219A8E1A000B354E /* Exam.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exam.storyboard; sourceTree = "<group>"; };
+		7459D686219A9143000B354E /* ExamGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamGuideViewController.swift; sourceTree = "<group>"; };
+		7467BD4F218A858F0092B4FE /* ProcessGuideContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessGuideContainer.swift; sourceTree = "<group>"; };
+		7467BD56218AB61F0092B4FE /* UserDefaultsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtil.swift; sourceTree = "<group>"; };
+		746CB141218696990003447B /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		746CB143218696B20003447B /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		746CB14521869A8B0003447B /* ReviewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDataSource.swift; sourceTree = "<group>"; };
+		746CB1472186A38E0003447B /* ReviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPresenter.swift; sourceTree = "<group>"; };
+		7472E1F5219590200047DE0F /* DefineContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineContainer.swift; sourceTree = "<group>"; };
+		747E08332213E4AB00EE7194 /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		7494CFC9221D0A4700E76DD3 /* CallManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManagerDelegate.swift; sourceTree = "<group>"; };
+		74A871B221813CCD00570D53 /* Lemonaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lemonaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A871B521813CCD00570D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		74A871B721813CCD00570D53 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		74A871BA21813CCD00570D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74A871BC21813CCE00570D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74A871BF21813CCE00570D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74A871C121813CCE00570D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A871C621813CCE00570D53 /* LemonaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A871CA21813CCE00570D53 /* LemonaidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonaidTests.swift; sourceTree = "<group>"; };
+		74A871CC21813CCE00570D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A871D121813CCE00570D53 /* LemonaidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonaidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A871D521813CCE00570D53 /* LemonaidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonaidUITests.swift; sourceTree = "<group>"; };
+		74A871D721813CCE00570D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A871E3218160D500570D53 /* DiseaseDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseDataSource.swift; sourceTree = "<group>"; };
+		74A871E52181620A00570D53 /* DiseaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseCell.swift; sourceTree = "<group>"; };
+		74A871E72181773B00570D53 /* Disease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease.swift; sourceTree = "<group>"; };
+		74A871E921818F2B00570D53 /* DiseasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseasePresenter.swift; sourceTree = "<group>"; };
+		74ADD5DA21A626AB0068A630 /* MapContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContainer.swift; sourceTree = "<group>"; };
+		74ADD5E021A642AD0068A630 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		7832D3FB50C326F19B28447E /* Pods-Lemonaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemonaid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lemonaid/Pods-Lemonaid.debug.xcconfig"; sourceTree = "<group>"; };
+		A85A320C31B7B70E5221F7C5 /* Pods_LemonaidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LemonaidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADDCB73E6B74E1BED670AA8 /* Pods-LemonaidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonaidTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemonaidTests/Pods-LemonaidTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74A871AF21813CCD00570D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D4110DEF80BAE36EE6ECB8 /* Pods_Lemonaid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A871C321813CCE00570D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE83738AD243245C60CDA29 /* Pods_LemonaidTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A871CE21813CCE00570D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E24C6D92BB9B6B374F05979 /* Pods_LemonaidUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		225B8AF3DE943E41BD8D28E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7832D3FB50C326F19B28447E /* Pods-Lemonaid.debug.xcconfig */,
+				5C7342946DD7E9A1145A8479 /* Pods-Lemonaid.release.xcconfig */,
+				EADDCB73E6B74E1BED670AA8 /* Pods-LemonaidTests.debug.xcconfig */,
+				5B0D19E442456F2701F54A79 /* Pods-LemonaidTests.release.xcconfig */,
+				013DB23FAA5DB98211642B14 /* Pods-LemonaidUITests.debug.xcconfig */,
+				33204082295CB98A0E3521B2 /* Pods-LemonaidUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47BBC62C2722EE8BB67C3748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7440587321C0C8100028019E /* OpenGLES.framework */,
+				7440587021C0C7FB0028019E /* AVFoundation.framework */,
+				7440586F21C0C7FB0028019E /* CoreFoundation.framework */,
+				7440586D21C0C7DF0028019E /* UIKit.framework */,
+				7440586921C0AF600028019E /* CoreAudio.framework */,
+				7440586A21C0AF600028019E /* CoreAudioKit.framework */,
+				3A60EC3CF7BB30072A1A7998 /* Pods_Lemonaid.framework */,
+				A85A320C31B7B70E5221F7C5 /* Pods_LemonaidTests.framework */,
+				36085DCCC5D28443EC570B46 /* Pods_LemonaidUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7413C59B219E460A003DA8C1 /* Treat */ = {
+			isa = PBXGroup;
+			children = (
+				7413C59C219E4625003DA8C1 /* Treat.storyboard */,
+				7413C5A0219EAA74003DA8C1 /* MikeTestViewController.swift */,
+				744753B621A29C27006DBA8E /* CallViewController.swift */,
+				74007577221138FA008FD3D3 /* VideoViewController.swift */,
+			);
+			path = Treat;
+			sourceTree = "<group>";
+		};
+		74186474219C461D00DB6737 /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				7459D683219A8E1A000B354E /* Exam.storyboard */,
+				7418646C219BE0D100DB6737 /* ExamViewController.swift */,
+				7459D686219A9143000B354E /* ExamGuideViewController.swift */,
+			);
+			path = Exam;
+			sourceTree = "<group>";
+		};
+		743D80A221894DE300E3E3D0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				74186470219BF85800DB6737 /* LoginViewController.swift */,
+				744753B821A29CF9006DBA8E /* Presc */,
+				7413C59B219E460A003DA8C1 /* Treat */,
+				74186474219C461D00DB6737 /* Exam */,
+				743D80A42189600600E3E3D0 /* Guide */,
+				743D80A321895FF900E3E3D0 /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		743D80A321895FF900E3E3D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74A871B921813CCD00570D53 /* Main.storyboard */,
+				74A871B721813CCD00570D53 /* MainViewController.swift */,
+				743D80A7218960C800E3E3D0 /* Review */,
+				743D80A6218960BA00E3E3D0 /* Disease */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		743D80A42189600600E3E3D0 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				7413C599219E3C17003DA8C1 /* Guide.storyboard */,
+				7455308A2187F68A00BB297D /* GuideViewController.swift */,
+				743D80B7218994DF00E3E3D0 /* Container */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		743D80A5218960AC00E3E3D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74A871E72181773B00570D53 /* Disease.swift */,
+				746CB143218696B20003447B /* Review.swift */,
+				74186477219C4C3B00DB6737 /* User.swift */,
+				74ADD5E021A642AD0068A630 /* Address.swift */,
+				743E1EBC21A7ECE000817B7F /* ReviewList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		743D80A6218960BA00E3E3D0 /* Disease */ = {
+			isa = PBXGroup;
+			children = (
+				74A871E921818F2B00570D53 /* DiseasePresenter.swift */,
+				74A871E3218160D500570D53 /* DiseaseDataSource.swift */,
+				74A871E52181620A00570D53 /* DiseaseCell.swift */,
+			);
+			path = Disease;
+			sourceTree = "<group>";
+		};
+		743D80A7218960C800E3E3D0 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				746CB14521869A8B0003447B /* ReviewDataSource.swift */,
+				746CB1472186A38E0003447B /* ReviewPresenter.swift */,
+				746CB141218696990003447B /* ReviewCell.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		743D80A8218960D500E3E3D0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7455308E21884FC000BB297D /* Color.swift */,
+				743D80B321896DF400E3E3D0 /* LocalString.swift */,
+				7467BD56218AB61F0092B4FE /* UserDefaultsUtil.swift */,
+				74186475219C471900DB6737 /* RealmUtil.swift */,
+				7413C59E219E9E6D003DA8C1 /* ViewBorder.swift */,
+				747E08332213E4AB00EE7194 /* CallManager.swift */,
+				7494CFC9221D0A4700E76DD3 /* CallManagerDelegate.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		743D80A9218960DE00E3E3D0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				74A871BC21813CCE00570D53 /* Assets.xcassets */,
+				74553096218861BB00BB297D /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		743D80B7218994DF00E3E3D0 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				743D80B52189826B00E3E3D0 /* MainGuideContainer.swift */,
+				7467BD4F218A858F0092B4FE /* ProcessGuideContainer.swift */,
+				7472E1F5219590200047DE0F /* DefineContainer.swift */,
+				74532675219910B500A82AC0 /* ExceptContainer.swift */,
+				74532677219910E500A82AC0 /* ExceptPresenter.swift */,
+				74532679219910F600A82AC0 /* ExceptDataSource.swift */,
+				7453267B2199113C00A82AC0 /* ExceptCell.swift */,
+				7459D681219A8312000B354E /* TreatContainer.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		743D80B82189A4F500E3E3D0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				74A871B521813CCD00570D53 /* AppDelegate.swift */,
+				74186472219BFD2F00DB6737 /* SingleData.swift */,
+				740F9D2D21AD7552004F05B3 /* Enums.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7440484621927CF400937B1A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7440484721927DF600937B1A /* ApiUtil.swift */,
+				7440484921929C0800937B1A /* HeaderAdapter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		744753B821A29CF9006DBA8E /* Presc */ = {
+			isa = PBXGroup;
+			children = (
+				744753B921A29E5D006DBA8E /* Presc.storyboard */,
+				744753BB21A29F49006DBA8E /* PrescViewController.swift */,
+				744002BC21A386670057E196 /* MapViewController.swift */,
+				74ADD5DA21A626AB0068A630 /* MapContainer.swift */,
+				743E1EBA21A7849A00817B7F /* CompletePrescViewController.swift */,
+			);
+			path = Presc;
+			sourceTree = "<group>";
+		};
+		74A871A921813CCD00570D53 = {
+			isa = PBXGroup;
+			children = (
+				74A871B421813CCD00570D53 /* Lemonaid */,
+				74A871C921813CCE00570D53 /* LemonaidTests */,
+				74A871D421813CCE00570D53 /* LemonaidUITests */,
+				74A871B321813CCD00570D53 /* Products */,
+				225B8AF3DE943E41BD8D28E0 /* Pods */,
+				47BBC62C2722EE8BB67C3748 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74A871B321813CCD00570D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74A871B221813CCD00570D53 /* Lemonaid.app */,
+				74A871C621813CCE00570D53 /* LemonaidTests.xctest */,
+				74A871D121813CCE00570D53 /* LemonaidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74A871B421813CCD00570D53 /* Lemonaid */ = {
+			isa = PBXGroup;
+			children = (
+				7400757922115A01008FD3D3 /* Lemonaid.entitlements */,
+				7440484621927CF400937B1A /* Network */,
+				743D80B82189A4F500E3E3D0 /* Common */,
+				74A871C121813CCE00570D53 /* Info.plist */,
+				743D80A5218960AC00E3E3D0 /* Model */,
+				743D80A8218960D500E3E3D0 /* Util */,
+				743D80A221894DE300E3E3D0 /* UI */,
+				743D80A9218960DE00E3E3D0 /* Resource */,
+				74A871BE21813CCE00570D53 /* LaunchScreen.storyboard */,
+			);
+			path = Lemonaid;
+			sourceTree = "<group>";
+		};
+		74A871C921813CCE00570D53 /* LemonaidTests */ = {
+			isa = PBXGroup;
+			children = (
+				74A871CA21813CCE00570D53 /* LemonaidTests.swift */,
+				74A871CC21813CCE00570D53 /* Info.plist */,
+			);
+			path = LemonaidTests;
+			sourceTree = "<group>";
+		};
+		74A871D421813CCE00570D53 /* LemonaidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74A871D521813CCE00570D53 /* LemonaidUITests.swift */,
+				74A871D721813CCE00570D53 /* Info.plist */,
+			);
+			path = LemonaidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74A871B121813CCD00570D53 /* Lemonaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A871DA21813CCE00570D53 /* Build configuration list for PBXNativeTarget "Lemonaid" */;
+			buildPhases = (
+				61FD556A1F35B5535CBCD37F /* [CP] Check Pods Manifest.lock */,
+				74A871AE21813CCD00570D53 /* Sources */,
+				74A871AF21813CCD00570D53 /* Frameworks */,
+				74A871B021813CCD00570D53 /* Resources */,
+				F3F1B9C105726CAC34F37E2B /* [CP] Embed Pods Frameworks */,
+				A3E487EB922D6A16F9E6EDA6 /* [CP] Copy Pods Resources */,
+				74C4F64321BDF91100C6AB77 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lemonaid;
+			productName = Lemonaid;
+			productReference = 74A871B221813CCD00570D53 /* Lemonaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74A871C521813CCE00570D53 /* LemonaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A871DD21813CCE00570D53 /* Build configuration list for PBXNativeTarget "LemonaidTests" */;
+			buildPhases = (
+				6BD3D8CCBE934792B46682FF /* [CP] Check Pods Manifest.lock */,
+				74A871C221813CCE00570D53 /* Sources */,
+				74A871C321813CCE00570D53 /* Frameworks */,
+				74A871C421813CCE00570D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A871C821813CCE00570D53 /* PBXTargetDependency */,
+			);
+			name = LemonaidTests;
+			productName = LemonaidTests;
+			productReference = 74A871C621813CCE00570D53 /* LemonaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74A871D021813CCE00570D53 /* LemonaidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A871E021813CCE00570D53 /* Build configuration list for PBXNativeTarget "LemonaidUITests" */;
+			buildPhases = (
+				8BF3520FEF29DD77FBA2C671 /* [CP] Check Pods Manifest.lock */,
+				74A871CD21813CCE00570D53 /* Sources */,
+				74A871CE21813CCE00570D53 /* Frameworks */,
+				74A871CF21813CCE00570D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A871D321813CCE00570D53 /* PBXTargetDependency */,
+			);
+			name = LemonaidUITests;
+			productName = LemonaidUITests;
+			productReference = 74A871D121813CCE00570D53 /* LemonaidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74A871AA21813CCD00570D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "박진수";
+				TargetAttributes = {
+					74A871B121813CCD00570D53 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					74A871C521813CCE00570D53 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 74A871B121813CCD00570D53;
+					};
+					74A871D021813CCE00570D53 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 74A871B121813CCD00570D53;
+					};
+				};
+			};
+			buildConfigurationList = 74A871AD21813CCD00570D53 /* Build configuration list for PBXProject "Lemonaid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = 74A871A921813CCD00570D53;
+			productRefGroup = 74A871B321813CCD00570D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74A871B121813CCD00570D53 /* Lemonaid */,
+				74A871C521813CCE00570D53 /* LemonaidTests */,
+				74A871D021813CCE00570D53 /* LemonaidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74A871B021813CCD00570D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A871C021813CCE00570D53 /* LaunchScreen.storyboard in Resources */,
+				74553094218861BB00BB297D /* Localizable.strings in Resources */,
+				7459D684219A8E1A000B354E /* Exam.storyboard in Resources */,
+				74A871BD21813CCE00570D53 /* Assets.xcassets in Resources */,
+				744753BA21A29E5D006DBA8E /* Presc.storyboard in Resources */,
+				74A871BB21813CCD00570D53 /* Main.storyboard in Resources */,
+				7413C59A219E3C17003DA8C1 /* Guide.storyboard in Resources */,
+				7413C59D219E4625003DA8C1 /* Treat.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A871C421813CCE00570D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A871CF21813CCE00570D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61FD556A1F35B5535CBCD37F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lemonaid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD3D8CCBE934792B46682FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LemonaidTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C4F64321BDF91100C6AB77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 79b28c10c32232031cab246b872047567780a074 b01e0e95bb520f8fab9c09d1bfbc2d838371ba76a5bc6387334b19e7779df78c\n";
+		};
+		8BF3520FEF29DD77FBA2C671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LemonaidUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E487EB922D6A16F9E6EDA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lemonaid/Pods-Lemonaid-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lemonaid/Pods-Lemonaid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F1B9C105726CAC34F37E2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lemonaid/Pods-Lemonaid-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${PODS_ROOT}/QuickBlox/Quickblox.framework",
+				"${PODS_ROOT}/Quickblox-WebRTC/QuickbloxWebRTC.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quickblox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickbloxWebRTC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lemonaid/Pods-Lemonaid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74A871AE21813CCD00570D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743D80B421896DF400E3E3D0 /* LocalString.swift in Sources */,
+				7440484A21929C0800937B1A /* HeaderAdapter.swift in Sources */,
+				743E1EBD21A7ECE000817B7F /* ReviewList.swift in Sources */,
+				747E08342213E4AB00EE7194 /* CallManager.swift in Sources */,
+				7459D682219A8312000B354E /* TreatContainer.swift in Sources */,
+				7472E1F6219590200047DE0F /* DefineContainer.swift in Sources */,
+				746CB1482186A38E0003447B /* ReviewPresenter.swift in Sources */,
+				746CB14621869A8B0003447B /* ReviewDataSource.swift in Sources */,
+				74186473219BFD2F00DB6737 /* SingleData.swift in Sources */,
+				740F9D2E21AD7552004F05B3 /* Enums.swift in Sources */,
+				7440484821927DF600937B1A /* ApiUtil.swift in Sources */,
+				74A871E4218160D500570D53 /* DiseaseDataSource.swift in Sources */,
+				74532678219910E500A82AC0 /* ExceptPresenter.swift in Sources */,
+				746CB144218696B20003447B /* Review.swift in Sources */,
+				7467BD50218A858F0092B4FE /* ProcessGuideContainer.swift in Sources */,
+				74ADD5DB21A626AB0068A630 /* MapContainer.swift in Sources */,
+				74007578221138FA008FD3D3 /* VideoViewController.swift in Sources */,
+				74186471219BF85800DB6737 /* LoginViewController.swift in Sources */,
+				74532676219910B500A82AC0 /* ExceptContainer.swift in Sources */,
+				74186476219C471900DB6737 /* RealmUtil.swift in Sources */,
+				74A871EA21818F2B00570D53 /* DiseasePresenter.swift in Sources */,
+				7455308F21884FC000BB297D /* Color.swift in Sources */,
+				7467BD57218AB61F0092B4FE /* UserDefaultsUtil.swift in Sources */,
+				74A871E82181773B00570D53 /* Disease.swift in Sources */,
+				7455308B2187F68A00BB297D /* GuideViewController.swift in Sources */,
+				7494CFCA221D0A4700E76DD3 /* CallManagerDelegate.swift in Sources */,
+				7453267C2199113C00A82AC0 /* ExceptCell.swift in Sources */,
+				7413C59F219E9E6D003DA8C1 /* ViewBorder.swift in Sources */,
+				74186478219C4C3B00DB6737 /* User.swift in Sources */,
+				7459D687219A9143000B354E /* ExamGuideViewController.swift in Sources */,
+				743D80B62189826B00E3E3D0 /* MainGuideContainer.swift in Sources */,
+				7453267A219910F600A82AC0 /* ExceptDataSource.swift in Sources */,
+				74A871B821813CCD00570D53 /* MainViewController.swift in Sources */,
+				746CB142218696990003447B /* ReviewCell.swift in Sources */,
+				744002BD21A386670057E196 /* MapViewController.swift in Sources */,
+				744753BC21A29F49006DBA8E /* PrescViewController.swift in Sources */,
+				743E1EBB21A7849A00817B7F /* CompletePrescViewController.swift in Sources */,
+				74A871E62181620A00570D53 /* DiseaseCell.swift in Sources */,
+				74A871B621813CCD00570D53 /* AppDelegate.swift in Sources */,
+				744753B721A29C27006DBA8E /* CallViewController.swift in Sources */,
+				7418646D219BE0D100DB6737 /* ExamViewController.swift in Sources */,
+				74ADD5E121A642AD0068A630 /* Address.swift in Sources */,
+				7413C5A1219EAA74003DA8C1 /* MikeTestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A871C221813CCE00570D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A871CB21813CCE00570D53 /* LemonaidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A871CD21813CCE00570D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A871D621813CCE00570D53 /* LemonaidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74A871C821813CCE00570D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A871B121813CCD00570D53 /* Lemonaid */;
+			targetProxy = 74A871C721813CCE00570D53 /* PBXContainerItemProxy */;
+		};
+		74A871D321813CCE00570D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A871B121813CCD00570D53 /* Lemonaid */;
+			targetProxy = 74A871D221813CCE00570D53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74553096218861BB00BB297D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74553095218861BB00BB297D /* en */,
+				743D80B221896CBB00E3E3D0 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		74A871B921813CCD00570D53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A871BA21813CCD00570D53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74A871BE21813CCE00570D53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A871BF21813CCE00570D53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74A871D821813CCE00570D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74A871D921813CCE00570D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74A871DB21813CCE00570D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7832D3FB50C326F19B28447E /* Pods-Lemonaid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lemonaid/Lemonaid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AL9L4NE9HL;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = Lemonaid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlayRTC/libs",
+					"$(PROJECT_DIR)/Lemonaid/PlayRTC/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zum.Lemonaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74A871DC21813CCE00570D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7342946DD7E9A1145A8479 /* Pods-Lemonaid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lemonaid/Lemonaid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AL9L4NE9HL;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = Lemonaid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlayRTC/libs",
+					"$(PROJECT_DIR)/Lemonaid/PlayRTC/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zum.Lemonaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74A871DE21813CCE00570D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADDCB73E6B74E1BED670AA8 /* Pods-LemonaidTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LemonaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinsu.LemonaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonaid.app/Lemonaid";
+			};
+			name = Debug;
+		};
+		74A871DF21813CCE00570D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0D19E442456F2701F54A79 /* Pods-LemonaidTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LemonaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinsu.LemonaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonaid.app/Lemonaid";
+			};
+			name = Release;
+		};
+		74A871E121813CCE00570D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013DB23FAA5DB98211642B14 /* Pods-LemonaidUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LemonaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinsu.LemonaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lemonaid;
+			};
+			name = Debug;
+		};
+		74A871E221813CCE00570D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33204082295CB98A0E3521B2 /* Pods-LemonaidUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LemonaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinsu.LemonaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lemonaid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74A871AD21813CCD00570D53 /* Build configuration list for PBXProject "Lemonaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A871D821813CCE00570D53 /* Debug */,
+				74A871D921813CCE00570D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A871DA21813CCE00570D53 /* Build configuration list for PBXNativeTarget "Lemonaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A871DB21813CCE00570D53 /* Debug */,
+				74A871DC21813CCE00570D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A871DD21813CCE00570D53 /* Build configuration list for PBXNativeTarget "LemonaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A871DE21813CCE00570D53 /* Debug */,
+				74A871DF21813CCE00570D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A871E021813CCE00570D53 /* Build configuration list for PBXNativeTarget "LemonaidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A871E121813CCE00570D53 /* Debug */,
+				74A871E221813CCE00570D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74A871AA21813CCD00570D53 /* Project object */;
+}
